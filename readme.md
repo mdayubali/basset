@@ -59,7 +59,7 @@ For local from CDNs:
 <link href="{{ asset('path/to/public/file.css') }}">
 
 {{-- you can do --}}
-<link href="{{ basset('path/to/public/file.css' }}">
+<link href="{{ basset('path/to/public/file.css') }}">
 <link href="{{ basset('https://cdn.com/path/to/file.css') }}">
 <link href="{{ basset(base_path('vendor/org/package/assets/file.css')) }}">
 <link href="{{ basset(storage_path('file.css')) }}">
